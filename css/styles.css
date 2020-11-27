@@ -1,0 +1,336 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(bg-header-desktop.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+  font-family: "Bai Jamjuree";
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+  margin: 2rem 0 1.2rem;
+}
+
+h2 {
+  font-size: 2rem;
+  color: hsl(210, 10%, 33%);
+  margin: 3rem 0 1rem;
+}
+
+h3 {
+  font-size: 1.4rem;
+  color: hsl(210, 10%, 33%);
+}
+
+p {
+  color: hsl(201, 11%, 66%);
+  font-weight: 400;
+  line-height: 2;
+}
+
+a {
+  font-family: "Bai Jamjuree";
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  color: hsl(201, 11%, 56%);
+  padding: 0.5rem 2.5rem;
+}
+
+a:hover {
+  color: hsl(171, 66%, 44%);
+}
+
+button {
+  margin: 5px;
+}
+
+/* Top Intro Section */
+.top-section {
+  margin: 7.5rem 0 2rem;
+}
+
+.description {
+  font-size: 18px;
+  margin: 0 auto 2rem;
+  max-width: 41rem;
+}
+
+.btn1 {
+  cursor: pointer;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  color: #ffffff;
+  font-family: "Bai Jamjuree";
+  font-size: 17px;
+  background: #26BAA4;
+  padding: 15px 30px 12px 30px;
+  border: none;
+  border-bottom: solid #12a892 3px;
+  box-shadow: 1px 5px 10px 10px rgba(38, 186, 164, 0.15);
+}
+
+.btn1:hover {
+  background: #4bd1bd;
+  outline: none;
+}
+
+.btn2 {
+  cursor: pointer;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  color: #ffffff;
+  font-family: "Bai Jamjuree";
+  font-size: 17px;
+  background: #6173FF;
+  padding: 15px 30px 12px 30px;
+  border: none;
+  border-bottom: solid #5464e3 3px;
+  box-shadow: 1px 5px 10px 10px rgba(0, 0, 0, 0.05);
+}
+
+.btn2:hover {
+  background: #8795fa;
+  outline: none;
+}
+
+.keep-track {
+  margin: 7rem 0 1rem;
+}
+
+.text {
+  font-size: 17px;
+  max-width: 41rem;
+  margin: 0 auto 2rem;
+}
+
+/* Middle Desktop Preview Section */
+.middle-container {
+  display: flex;
+  text-align: left;
+  margin: 5rem 0 10rem;
+}
+
+.desktop-img {
+  width: 100%;
+  position: relative;
+  right: 1.8rem;
+}
+
+.item1 {
+  flex: 1 1 52%;
+}
+
+.item2 {
+  margin-top: 1rem;
+  flex: 1 1 48%;
+  padding: 0 5rem;
+}
+
+.item2 h3 {
+  margin: 4rem 0 0.5rem;
+}
+
+.item2 p {
+  font-size: 16px;
+  max-width: 22rem;
+  line-height: 1.8;
+}
+
+/* Tablet and Movile Devices Section */
+.devices-section {
+  margin: 5rem 0 4rem;
+}
+
+.devices-section p {
+  font-size: 17px;
+  max-width: 41rem;
+  margin: 0 auto 2rem;
+}
+
+.devices {
+  margin-top: 4rem;
+}
+
+/* Features Section */
+.features-section {
+  display: flex;
+  padding: 0 12%;
+  text-align: center;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.features {
+  flex: 1 1 33%;
+  margin: 1rem 0 4rem;
+  padding: 0 10px;
+}
+
+.feature-images {
+  margin-top: 30px;
+  height: 60px;
+}
+
+.features h3 {
+  margin: 1rem 0;
+}
+
+.features-section p {
+  font-size: 16px;
+  max-width: 22rem;
+  line-height: 2;
+  margin: auto;
+}
+
+/* Companies Section */
+.companies {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 4rem auto;
+  padding: 0 12%;
+}
+
+.companies img {
+  margin: 2rem 1rem;
+}
+
+/* Bottom App Download Section */
+.bottom-container {
+  margin: 7rem 0;
+}
+
+.bottom-container p {
+  font-size: 17px;
+  margin: 0 auto 2rem;
+  max-width: 41rem;
+}
+
+/* Footer Section */
+footer {
+  background-color: hsl(0, 0%, 97%);
+  display: flex;
+  text-align: left;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 12%;
+}
+
+.bottom-logo {
+  width: 60px;
+}
+
+.table {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-right: 10rem;
+}
+
+.icon {
+  margin: 0 0.5rem;
+  color: hsl(210, 10%, 33%);
+}
+
+.icon:hover {
+  cursor: pointer;
+  color: hsl(171, 66%, 44%);
+}
+
+/* Media Queries */
+@media (max-width:1200px) {
+  table {
+    margin: 0;
+  }
+}
+
+@media (max-width:1000px) {
+  p {
+    margin: auto;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+
+  .table {
+    margin: 2rem 0;
+  }
+
+  .middle-container {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .desktop-img {
+    position: static;
+    width: 80%;
+  }
+
+  .device-image {
+    width: 100%;
+  }
+
+  .device-image img {
+    width: 80%;
+  }
+
+  .features {
+    flex: 1 1 100%;
+    margin: 1rem auto;
+    padding: 0 20px;
+  }
+}
+
+@media (max-width:750px) {
+  body {
+    background-image: url(bg-header-mobile.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  main {
+    padding: 0 50px;
+  }
+
+  .companies {
+    justify-content: center;
+  }
+
+  .table {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+}
+
+@media (max-width:516px) {
+  main {
+    padding: 0 30px;
+  }
+
+  .item2 {
+    padding: 0;
+  }
+
+  .features-section, .features {
+    padding: 0;
+  }
+
+  .btn1, .btn2 {
+    padding: 15px 80px 12px 80px;
+  }
+}
